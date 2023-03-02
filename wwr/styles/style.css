@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+/*Home Page*/
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -189,6 +191,36 @@ footer .socal image {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/*Rivers Page*/
+
+#title-img{
+    width: 100%;
+}
+#heading{
+    color: #a19483;
+    font-family: 'Rock Salt','Courier New', monospace;
+    font-size: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+}
+#title-img {
+   width: 100%;
+}
+#title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -100px;
+}
+#title-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+/*Media Queries*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
