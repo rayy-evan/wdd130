@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 /*Home Page*/
 
@@ -35,7 +36,7 @@ nav a:hover {
 }
 body {
     background-color: #ffffff;
-    font-family: 'Comic Sans MS','Courier New', monospace;
+    font-family: 'Ubuntu','Courier New', monospace;
     font-size: 20px;
     margin: 0;
     padding: 0;
