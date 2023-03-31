@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 /*Home Page*/
-
 body {
     background-color: #ffffff;
     font-family: 'Ubuntu','Courier New', monospace;
@@ -48,8 +47,8 @@ body {
 }
 /* End Home Page*/
 
-/* History Page*/
 
+/* History Page*/
 .history-title {
     color: #000000;
     font-family: 'Rock Salt','Courier New', monospace;
@@ -69,13 +68,45 @@ body {
     width: 100%;
     padding-bottom: 30px;
 }
-
-
 /* End History Page*/
 
 
-/* Header, Footer, Content*/
+/* Car Builds Page*/
+.builds-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 50px;
+}
+.builds-img1 {
+    width: 100%;
+}
+.builds-img2 {
+    width: 100%;
+    
+}
+.builds-img3 {
+    width: 100%;
+}
+.builds-img4 {
+    width: 100%;
+}
+.builds-img5 {
+    width: 100%;
+}
+.builds-img6 {
+    width: 100%;
+}
+.builds-title {
+    color: #000000;
+    font-family: 'Rock Salt','Courier New', monospace;
+    font-size: 3em;
+    text-align: center;
+}
+/* End Car Builds Page*/
 
+
+/* Header, Footer, Content*/
 #content {
     max-width: 1600px;
     margin: 0 auto;
