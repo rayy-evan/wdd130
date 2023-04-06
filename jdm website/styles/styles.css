@@ -4,7 +4,7 @@
 body {
     background-color: #ffffff;
     font-family: 'Ubuntu','Courier New', monospace;
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin: 0;
     padding: 0;
 }
@@ -117,7 +117,7 @@ header {
     background-color: #6C698D;
 }
 .logo {
-    max-width: 200px;
+    width: 200px;
     padding: 20px;
     border-radius: 30px;
 }
@@ -131,7 +131,7 @@ nav a {
     background-color: #6C698D;
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1vw;
     padding: 10px;
 }
 nav a:hover {
@@ -152,7 +152,7 @@ footer a {
     text-decoration: none;
 }
 footer p {
-    font-size: 1.5vw;
+    font-size: 1vw;
 }    
 footer a:hover {
     text-decoration: underline;
